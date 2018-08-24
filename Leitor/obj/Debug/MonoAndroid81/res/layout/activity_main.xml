@@ -1,0 +1,5 @@
+<RelativeLayout android:layout_width="match_parent" android:orientation="vertical" android:layout_height="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"><SurfaceView android:id="@+id/surface" android:layout_width="match_parent" android:layout_height="match_parent" /><!--Button
+		android:text="Button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btn" --><TextView android:id="@+id/txtV" android:text="No text" android:textColor="@android:color/white" android:textSize="20sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" /></RelativeLayout>

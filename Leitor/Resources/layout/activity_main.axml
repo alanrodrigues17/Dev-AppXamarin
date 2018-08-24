@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+	android:orientation="vertical"
+    android:layout_height="match_parent"
+	>
+	<SurfaceView
+	android:id="@+id/surface"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"/>
+	<!--Button
+		android:text="Button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btn" -->
+	<TextView
+	android:id="@+id/txtV"
+	android:text="No text"
+	android:textColor="@android:color/white"
+	android:textSize="20sp"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
